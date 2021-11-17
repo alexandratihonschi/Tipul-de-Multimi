@@ -1,0 +1,6 @@
+A=set(input( 'introduceti elementele: '))
+B=set(input( 'introduceti elementele: '))
+print(A.intersection(B))
+print(A.union(B))
+print(A.difference(B))
+print(B.difference(A))

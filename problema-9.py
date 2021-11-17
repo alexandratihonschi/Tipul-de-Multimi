@@ -1,0 +1,6 @@
+A=set(input( 'introduceti literele majuscule: '))
+B=set(input( 'introduceti literele majuscule: '))
+print(A.intersection(B))
+print(A.union(B))
+print(A.difference(B))
+print(B.difference(A))
