@@ -1,0 +1,5 @@
+a=set(input('introduceti caracterele: '))
+b=set(input('introduceti caracterele: '))
+print('a)caracterele intalnite in cel putin 1 din siruri:',a.union(b))
+print('b)caracterele intalnite in ambele siruri:',a.intersection(b))
+print('c)caracterele intalnite in primul sir su nu apar in al doilea:',a.difference(b))
